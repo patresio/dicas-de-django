@@ -7,3 +7,12 @@
     Lorem Ipsum
 
     make lint; g add . ; g co -m 'Teste. close #1'; g push
+
+---
+
+[ ] 2 - Criando o projeto django
+    feature, backend
+
+    git checkout -b django
+
+    make lint; git add . ; git commit -m 'Criando o projeto django. close #2'; git push
