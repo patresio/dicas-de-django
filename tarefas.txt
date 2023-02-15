@@ -1,0 +1,9 @@
+
+---
+
+[ ] 1 - Teste
+    test
+
+    Lorem Ipsum
+
+    make lint; g add . ; g co -m 'Teste. close #1'; g push
