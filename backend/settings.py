@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     # apps de terceiros
     'django_extensions',
     # minhas apps
-    'backend.apps.CoreConfig',
+    'backend.core',
 ]
 
 MIDDLEWARE = [
