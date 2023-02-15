@@ -28,7 +28,7 @@ def write_file(filename, number, title, description, labels):
         if description:
             f.write(f'    {description}\n\n')
 
-        f.write(f"    make lint; g add . ; g co -m '{title}. close #{number}'; g push\n")
+        f.write(f"    make lint; git add . ; git commit -m '{title}. close #{number}'; git push\n")
 
 
 @click.command()
