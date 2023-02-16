@@ -25,3 +25,12 @@
     git checkout -b django-docker
 
     make lint; git add . ; git commit -m 'PostgreSQL, pgAdmin, MailHog com docker-compose. close #4'; git push
+
+---
+
+[ ] 6 - Organização do código com isort e autopep8
+    organization
+
+    git checkout -b isort-autopep8
+
+    make lint; git add . ; git commit -m 'Organização do código com isort e autopep8. close #6'; git push
