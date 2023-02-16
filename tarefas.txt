@@ -16,3 +16,12 @@
     git checkout -b django
 
     make lint; git add . ; git commit -m 'Criando o projeto django. close #2'; git push
+
+---
+
+[ ] 4 - PostgreSQL, pgAdmin, MailHog com docker-compose
+    backend, docker, database
+
+    git checkout -b django-docker
+
+    make lint; git add . ; git commit -m 'PostgreSQL, pgAdmin, MailHog com docker-compose. close #4'; git push

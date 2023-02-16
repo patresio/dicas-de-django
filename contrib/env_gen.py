@@ -12,6 +12,10 @@ size = 20
 password = "".join(random.sample(chars, size))
 
 CONFIG_STRING = """
+REPO_OWNER=patresio
+REPO_NAME=
+TOKEN=
+
 DEBUG=True
 SECRET_KEY=%s
 ALLOWED_HOSTS=127.0.0.1,.localhost,0.0.0.0
